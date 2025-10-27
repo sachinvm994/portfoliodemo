@@ -212,3 +212,22 @@ header {
     border: none;
 }
 
+@media screen and (max-width:1024px){
+    .hero-text .split{
+        display: none;
+    }
+
+}
+@media screen and (max-width:768px){
+
+    .hero-text h2 ,.hero-text .split{
+        display: none;
+    }
+
+    .project-card .image-container{
+        display: none;
+    }
+    .contact .btn-primary{
+        width: 100%;
+    }
+}
